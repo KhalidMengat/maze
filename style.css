@@ -1,0 +1,58 @@
+body 
+{
+    background-color: #65584C;
+}
+
+main
+/* {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+} */
+
+.AllMaze 
+{
+    display: flex;
+    width: calc(13*40px);
+    flex-wrap: wrap;
+    border: 2px solid black;
+    background: url(konoha.jpg)no-repeat fixed;
+}
+
+.start {
+    width: 40px;
+    height: 40px;
+    background: url(konohaarr.png);
+
+}
+
+.ninja 
+{
+    background: url(naar.png);
+    width: 40px;
+    height: 40px;
+}
+
+.wall 
+{
+    background: cover;
+    width: 40px;
+    height: 40px;
+}
+
+
+.way 
+{
+    background: url(sable.webp)no-repeat fixed;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.end 
+{
+    background: url(jiraya.png);
+    width: 40px;
+    height: 40px;
+}
